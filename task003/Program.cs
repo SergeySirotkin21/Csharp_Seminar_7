@@ -4,7 +4,6 @@
 // рекурсию, не использовать циклы.
 // [1, 2, 5, 0, 10, 34] => 34 10 0 5 2 1 
 
-
 // Функция ввода числа 
 int ReadInt(string str)
 {
@@ -31,7 +30,6 @@ void RevPrint(int[] matrix, int i = 0)
     RevPrint(matrix, i + 1);
     Console.Write(matrix[i] + "  ");
 }
-
 
 //------
 int size = ReadInt("Задайте длинну массива: ");
