@@ -4,7 +4,6 @@
 // неотрицательных числа m и n. 
 // m = 2, n = 3 -> A(m,n) = 29
 
-
 int ReadInt(string str)
 {
     System.Console.Write(str);
@@ -22,4 +21,3 @@ int Akkerman(int m, int n)
 int m = ReadInt("Введите значение числа m: ");
 int n = ReadInt("Введите значение числа n: ");
 System.Console.WriteLine("Значение функции Аккермана =" +" "+ Akkerman(m, n));
-
